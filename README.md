@@ -1,4 +1,5 @@
 # AI-Smart-Financial-Monitoring-Genz
+
 ## Overview
 
 AI pipeline untuk menganalisis struk belanja dan menghasilkan insight keuangan.
@@ -7,7 +8,7 @@ AI pipeline untuk menganalisis struk belanja dan menghasilkan insight keuangan.
 
 * YOLOv8 (Receipt Detection)
 * EasyOCR (Text Extraction)
-* Gemini API (Financial Insight Generation)
+* Gemini LLM (Financial Insight Generation)
 
 ## Dataset
 
@@ -18,16 +19,16 @@ AI pipeline untuk menganalisis struk belanja dan menghasilkan insight keuangan.
 
 ## Workflow
 
-Receipt Image → YOLOv8 Detection → EasyOCR → Gemini API → Spending Insight
+Receipt Image → YOLOv8 Detection → EasyOCR → Gemini LLM → Financial Insight
 
 ## Repository Contents
 
 * Training Notebook
 * YOLO Model
 * Sample Results
-  
+
 ## Model Information
 
-- YOLOv8 digunakan untuk mendeteksi area struk.
-- EasyOCR digunakan untuk mengekstraksi teks dari struk.
-- Gemini API digunakan untuk menghasilkan insight pengeluaran dan rekomendasi keuangan.
+- YOLOv8 digunakan untuk mendeteksi area struk pada gambar.
+- EasyOCR digunakan untuk mengekstraksi teks dari struk yang telah terdeteksi.
+- Gemini LLM digunakan untuk menghasilkan insight pengeluaran dan rekomendasi keuangan berdasarkan hasil ekstraksi teks.
